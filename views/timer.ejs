@@ -1,0 +1,28 @@
+<%- include('partials/header')%>
+<div class="ui container">
+  <div class="ui centered card">
+    <div class="ui center aligned inverted segment">
+      <h1 id="countdown">
+        Start Timer
+      </h1>
+    </div>
+    <div class="content">
+      <progress
+        style="height: 50px; width: 100%;"
+        id="progress"
+        max="100"
+        value="100"
+      ></progress>
+    </div>
+
+    <div class="ui buttons">
+      <button id="btnStart" class="ui positive button">Start</button>
+      <div class="or" data-text="/"></div>
+      <button id="btnPause" class="ui button">Pause</button>
+      <div class="or" data-text="/"></div>
+      <button id="btnStop" class="ui negative button">Stop</button>
+    </div>
+  </div>
+</div>
+<script src="timer.js"></script>
+<%- include('partials/footer')%>

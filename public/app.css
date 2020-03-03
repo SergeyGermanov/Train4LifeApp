@@ -1,0 +1,26 @@
+.ui.cards {
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.ui.container {
+  margin-top: 5em;
+}
+
+.ui.devided.items.item,
+.ui.horizontal.divider.header {
+  margin-bottom: 2em;
+}
+
+.description a,
+.header a {
+  color: #293442f5;
+}
+
+div#timerBox {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5em;
+  z-index: 1;
+  opacity: 0.9;
+}

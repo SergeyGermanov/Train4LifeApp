@@ -1,0 +1,41 @@
+<%- include('partials/header')%>
+<div class="ui container">
+  <div class="ui link cards">
+    <% data.forEach(function(data){%>
+
+    <div class="card">
+      <div class="image">
+        <img src="<%= data.image %>" alt="girl training" />
+      </div>
+      <div class="content">
+        <div class="header">
+          <a href="/session/<%=data.id%>">
+            <%= data.name%>
+          </a>
+        </div>
+        <div class="meta">
+          <a href="/session/<%=data.id%>">
+            <%= data.link%>
+          </a>
+        </div>
+        <div class="description">
+          <a href="/session/<%=data.id%>">
+            <%= data.description%>
+          </a>
+        </div>
+      </div>
+      <div class="extra content">
+        <span class="right floated">
+          Started in Dec 2019
+        </span>
+        <span>
+          <i class="user icon"></i>
+          Kate Alex
+        </span>
+      </div>
+    </div>
+
+    <%})%>
+  </div>
+</div>
+<%- include ('partials/footer')%>
