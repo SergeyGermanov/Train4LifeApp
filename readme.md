@@ -1,6 +1,6 @@
 # Train4Life App
 
-train4life.herokuapp.com
+http://train4life.herokuapp.com/
 
 Author: Sergey Germanov
 
